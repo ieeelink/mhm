@@ -2,7 +2,7 @@ import image1 from '../../assets/images/glimpses/1.jpeg'
 const About = () => {
     return (
         <>
-            <div className="hero min-h-screen ">
+            <div className="hero  py-12">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div>
                         <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera Outline" }}>About</h1>
@@ -14,9 +14,9 @@ const About = () => {
                     <img src={image1} className="rounded-lg shadow-2xl" style={{borderRadius:"1rem", width:"36rem"}} />
 
                 </div>
-            </div>
+            </div > 
 
-            <div className="hero min-h-screen ">
+            <div className="hero  py-12">
                 <div className="hero-content flex-col lg:flex-row">
                     {/* <img src={image1} className="rounded-lg shadow-2xl"/> */}
                     <div>
@@ -26,9 +26,9 @@ const About = () => {
                         <p className="py-6"> With over 14000 members, IEEE Kerala Section is one of the most vibrant communities in the ranks of IEEE. The Section ensures the growth of technical prowess, managerial skills, and volunteering spirit among its members. It is the largest among 343 sections of IEEE spread across 165 countries. The IEEE Kerala section is home to a thriving volunteer community engaged in technical activities throughout the state, including the rapid development of "keralarescue.in" during the 2018 Kerala Floods. It is also well known on a global scale, with many of its activities and accomplishments garnering global attention and being replicated across other Sections on a global scale.  </p>
                     </div>
                 </div>
-            </div>
+            </div > 
 
-            <div className="hero min-h-screen ">
+            <div className="hero  py-12">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     {/* <img src={image1} className="rounded-lg shadow-2xl w-1/2" /> */}
                     <div>
@@ -39,10 +39,10 @@ const About = () => {
                         <button className="btn btn-primary">Learn More</button>
                     </div>
                 </div>
-            </div>
+            </div > 
+ 
 
-
-            <div className="hero min-h-screen ">
+            <div className="hero  py-12">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     {/* <img src={image1} className="rounded-lg shadow-2xl w-1/2" /> */}
                     <div>
@@ -52,9 +52,9 @@ const About = () => {
                         <p className="py-6">  Amidst the lush, green and picturesque region of Malabar is a small yet mighty group of students who are connecting, collaborating, experimenting, and always in search of something new. Yes, we are referring to the IEEE Malabar Hub, a networking platform for students and professionals of northern districts of Kerala viz Palakkad, Malappuram, Kozhikode, Wayanad, Kannur, and Kasaragod. The hub currently has 25 student branches and more than 3000 IEEE members. The Malabar hub aims to provide the best in class experience by organizing workshops, talks, internships, and conferences so that at the end of the day, we are not just engineers, but a fully-fledged techno giant dominating the tech industry. The hub invites the attention of all members to work together and organize more activities that would create an opportunity to collaborate with other IEEE members from all over the world.  </p>
                     </div>
                 </div>
-            </div>
+            </div > 
 
-            <div className="hero min-h-screen ">
+            <div className="hero py-12 ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     {/* <img src={image1} className="rounded-lg shadow-2xl w-1/2" /> */}
                     <div>
@@ -64,9 +64,9 @@ const About = () => {
                         <p className="py-6">   IEEE Malabar Subsection (MSS) is the first subsection under the Kerala section formed on October 2010. Within this short span of 12 years, MSS has emerged as a strong pillar of development and initiatives in the Malabar region, contributing significantly to the Kerala section. MSS’s mission is to organize various student and professional activities such as invited talks, student internships, workshops, and Flagship conferences. The subsection will collaborate with local and overseas industries and academic institutions in organizing technical workshops or seminars for sharing knowledge related to the latest technologies among the members of MSS. Through collaboration in research and academic activities, the subsection can establish a good understanding of the industry which will greatly benefit IEEE members. IEEE MSS will augment professional networking, humanitarian activities, and staying updated with the latest technological development.  </p>
                     </div>
                 </div>
-            </div>
+            </div > 
 
-            <div className="hero min-h-screen ">
+            <div className="hero py-12 ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     {/* <img src={image1} className="rounded-lg shadow-2xl w-1/2" /> */}
                     <div>
