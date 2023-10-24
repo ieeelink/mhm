@@ -1,11 +1,11 @@
-import image1 from '../../assets/images/glimpses/1.jpeg'
+import image1 from '../../assets/images/mhm.webp'
 import gcek from '../../assets/images/gcek.jpg'
 import './About.css'
 import Glimpses from '../Glimpses/Glimpses'
 const About = () => {
     return (
         <>
-            <div className="hero  py-12">
+            <div className="hero  py-12" id='about'>
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div>
                         <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera Outline" }}>About</h1>
