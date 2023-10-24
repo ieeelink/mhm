@@ -15,6 +15,33 @@ const About = () => {
 
                 </div>
             </div > 
+            <div className="p-12 flex justify-evenly">
+                <i className='text-xl font-bold'>Logo 1</i>
+                <i className='text-xl font-bold'>Logo 2</i>
+                <i className='text-xl font-bold'>Logo 3</i>
+                <i className='text-xl font-bold'>Logo 4</i>
+                <i className='text-xl font-bold'>Logo 5</i>
+                <i className='text-xl font-bold'>Logo 6</i>
+                <i className='text-xl font-bold'>Logo 7</i>
+                <i className='text-xl font-bold'>Logo 8</i>
+            </div>
+            <div className="mx-auto hero-content py-12 grid grid-cols-1 md:grid-cols-2 gap-x-4">
+                <h1 className="text-5xl font-bold col-span-1 md:col-span-2" style={{ fontFamily: "Aloevera Outline" }}>Our</h1>
+                <h1 className="text-5xl font-bold col-span-1 md:col-span-2" style={{ fontFamily: "Aloevera" }}>Features</h1>
+                <div className="artboard artboard-demo p-4 mt-3">
+                    <h1 className="text-3xl font-bold" style={{ fontFamily: "Aloevera" }}>Workshops</h1>
+                </div>
+                <div className="artboard artboard-demo p-4 mt-3">
+                    <h1 className="text-3xl font-bold" style={{ fontFamily: "Aloevera" }}>Workshops</h1>
+                </div>
+                <div className="artboard artboard-demo p-4 mt-3">
+                    <h1 className="text-3xl font-bold" style={{ fontFamily: "Aloevera" }}>Workshops</h1>
+                </div>
+                <div className="artboard artboard-demo p-4 mt-3">
+                    <h1 className="text-3xl font-bold" style={{ fontFamily: "Aloevera" }}>Workshops</h1>
+                </div>
+            </div>
+
 
             <div className="hero  py-12">
                 <div className="hero-content flex-col lg:flex-row">
