@@ -17,13 +17,17 @@ const BackgroundMesh = () => {
                 move();
             });
         }
-    
-        window.addEventListener('mousemove', (event) => {
+        const trigger = (event) => {
             tgX = event.clientX;
             tgY = event.clientY;
-        });
+        }
+        window.addEventListener('mousemove',trigger );
     
         move();
+
+        return ()=>{
+            window.removeEventListener('mousemove',trigger);
+        }
     },[interBubble]);
     return (
         <>

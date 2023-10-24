@@ -9,7 +9,7 @@ const Hero = () => {
                     <div className="max-w-md">
                         <h1 className="text-5xl font-bold">Malabar Hub Meet</h1>
                         <h1 className="text-4xl font-bold py-2">2023</h1>
-                        <p className="py-4">
+                        <div className="py-4">
                             <i className="fa-solid fa-calendar-days"></i>
                             <p className="px-2">
                                 November 18<sup>th</sup> & 19 <sup>th</sup>
@@ -20,7 +20,7 @@ const Hero = () => {
                             <p className="px-2">
                                 Govt. College of Engineering Kannur
                             </p>
-                        </p>
+                        </div>
                         <button className="btn btn-primary">Register Now</button>
                     </div>
                 </div>
