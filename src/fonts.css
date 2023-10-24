@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-Black'), url('./assets/fonts/Aloevera/Aloevera-Black.otf') format('opentype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-Bold'), url('./assets/fonts/Aloevera/Aloevera-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-Medium'), url('./assets/fonts/Aloevera/Aloevera-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-Regular'), url('./assets/fonts/Aloevera/Aloevera-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-Light'), url('./assets/fonts/Aloevera/Aloevera-Light.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-Thin'), url('./assets/fonts/Aloevera/Aloevera-Thin.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-ExtraLight'), url('./assets/fonts/Aloevera/Aloevera-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-ExtraBold'), url('./assets/fonts/Aloevera/Aloevera-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Aloevera';
+    src: local('Aloevera-SemiBold'), url('./assets/fonts/Aloevera/Aloevera-SemiBold.otf') format('opentype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-Black'), url('./assets/fonts/Aloevera/Aloeveracondensed-Black.otf') format('opentype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-Bold'), url('./assets/fonts/Aloevera/Aloeveracondensed-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-Medium'), url('./assets/fonts/Aloevera/Aloeveracondensed-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-Regular'), url('./assets/fonts/Aloevera/Aloeveracondensed-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-Light'), url('./assets/fonts/Aloevera/Aloeveracondensed-Light.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-Thin'), url('./assets/fonts/Aloevera/Aloeveracondensed-Thin.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-ExtraLight'), url('./assets/fonts/Aloevera/Aloeveracondensed-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-ExtraBold'), url('./assets/fonts/Aloevera/Aloeveracondensed-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Aloevera Condensed';
+    src: local('Aloeveracondensed-SemiBold'), url('./assets/fonts/Aloevera/Aloeveracondensed-SemiBold.otf') format('opentype');
+    font-weight: 600;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-Black'), url('./assets/fonts/Aloevera/Aloeveraoutline-Black.otf') format('opentype');
+    font-weight: 900;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-Bold'), url('./assets/fonts/Aloevera/Aloeveraoutline-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-Medium'), url('./assets/fonts/Aloevera/Aloeveraoutline-Medium.otf') format('opentype');
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-Regular'), url('./assets/fonts/Aloevera/Aloeveraoutline-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-Light'), url('./assets/fonts/Aloevera/Aloeveraoutline-Light.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-Thin'), url('./assets/fonts/Aloevera/Aloeveraoutline-Thin.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-ExtraLight'), url('./assets/fonts/Aloevera/Aloeveraoutline-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-ExtraBold'), url('./assets/fonts/Aloevera/Aloeveraoutline-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+}
+@font-face{
+    font-family: 'Aloevera Outline';
+    src: local('Aloeveraoutline-SemiBold'), url('./assets/fonts/Aloevera/Aloeveraoutline-SemiBold.otf') format('opentype');
+    font-weight: 600;
+}
