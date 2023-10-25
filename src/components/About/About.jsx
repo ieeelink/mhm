@@ -90,7 +90,7 @@ const About = () => {
                     {/* <img src={image1} className="rounded-lg shadow-2xl w-1/2" /> */}
                     <div>
                         <h1 className="text-5xl font-bold text-white" style={{ fontFamily: "Aloevera Outline" }}>About</h1>
-                        <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera" }}> IEEE Malabar Sub Section</h1>
+                        <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera" }}> IEEE Malabar Subsection</h1>
 
                         <p className="py-6">   IEEE Malabar Subsection (MSS) is the first subsection under the Kerala section formed on October 2010. Within this short span of 12 years, MSS has emerged as a strong pillar of development and initiatives in the Malabar region, contributing significantly to the Kerala section. MSS’s mission is to organize various student and professional activities such as invited talks, student internships, workshops, and Flagship conferences. The subsection will collaborate with local and overseas industries and academic institutions in organizing technical workshops or seminars for sharing knowledge related to the latest technologies among the members of MSS. Through collaboration in research and academic activities, the subsection can establish a good understanding of the industry which will greatly benefit IEEE members. IEEE MSS will augment professional networking, humanitarian activities, and staying updated with the latest technological development.  </p>
                     </div>
@@ -102,7 +102,7 @@ const About = () => {
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div>
                         <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera Outline" }}>About</h1>
-                        <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera" }}>  IEEE SB GCE K</h1>
+                        <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera" }}>  IEEE SB GCE Kannur</h1>
 
                         <p className='py-3'>
                             As one of the premier institutes among the nine Government

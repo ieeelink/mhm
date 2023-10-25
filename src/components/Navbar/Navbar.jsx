@@ -28,7 +28,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-diabled">Get Tickets</a>
+                {/* <a className="btn btn-diabled">Get Tickets</a> */}
             </div>
         </div>
     )

@@ -24,7 +24,7 @@ const Faq = () => {
                 <input type="radio" name="my-accordion-3" />
                 <div className="collapse-title text-xl font-medium">
 
-                    2. Where is MHM’22 held ?
+                    2. Where is MHM’23 held ?
 
                 </div>
                 <div className="collapse-content">
