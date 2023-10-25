@@ -12,7 +12,7 @@ const Navbar = () => {
                         <li><a href='/#about'>About</a></li>
                         <li><a href='/#glimpses'>Glimpses</a></li>
                         <li><a href='/#faq'>FAQ</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a href='/#footer'>Contact</a></li>
 
                     </ul>
                 </div>
@@ -24,11 +24,11 @@ const Navbar = () => {
                     <li><a href='/#about'>About</a></li>
                     <li><a href='/#glimpses'>Glimpses</a></li>
                     <li><a href='/#faq'>FAQ</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href='/#footer'>Contact</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                {/* <a className="btn btn-diabled">Get Tickets</a> */}
+                <a className="btn btn-diabled">Coming Soon</a>
             </div>
         </div>
     )

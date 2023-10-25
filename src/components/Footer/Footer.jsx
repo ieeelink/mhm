@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <>
-            <footer className="footer p-10 bg-base-200 text-base-content">
+            <footer className="footer p-10 bg-base-200 text-base-content" id="footer">
                 <nav>
                     <header className="footer-title">Useful Links</header>
                     <a href="https://ieee-link.org/" className="link link-hover">IEEE LINK</a>
