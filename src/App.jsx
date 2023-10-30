@@ -9,6 +9,8 @@ import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Glimpses from './components/Glimpses/Glimpses'
 import BackgroundMesh from './components/BackgroundMesh/BackgroundMesh'
+import Stat from './components/Stat/Stat'
+import GetTicket from './GetTicket/GetTicket'
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Stat />
       <About />
+      <GetTicket/>
       <Faq />
       <Footer />
     </>

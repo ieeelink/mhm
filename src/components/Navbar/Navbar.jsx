@@ -13,7 +13,6 @@ const Navbar = () => {
                         <li><a href='/#glimpses'>Glimpses</a></li>
                         <li><a href='/#faq'>FAQ</a></li>
                         <li><a href='/#footer'>Contact</a></li>
-
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl"><img src={logo} className='w-28' /></a>
@@ -28,7 +27,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-diabled">Coming Soon</a>
+                <a className="btn btn-diabled" href='/#get-ticket'>Get Tickets</a>
             </div>
         </div>
     )

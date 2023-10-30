@@ -12,13 +12,15 @@ const About = () => {
                         <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera" }}>Malabar Hub Meet</h1>
 
                         <p className="py-6"> Malabar Hub Meet (MHM) is a two-day annual flagship event of IEEE Malabar Hub aimed at connecting the vibrant volunteers across the Malabar Hub and cheering them up with technical and cultural exposure. The three-day arch event features top-notch programs including technical workshops, mentorship opportunities, industrial visits, and cultural programs. Attended by students spanning different colleges in the Malabar region, this event facilitates a platform for creating the building blocks of a lifelong and diverse professional network. The event caters to the inquisitive minds of young engineers by allowing them to interact with technical experts and alleviate their concerns about the working world while providing real-time industrial networking. The event also focuses on equipping the delegates with volunteering opportunities and improving their communication skills and confidence level. We promise a platform to converse and think with other enthusiastic minds through MHM. </p>
-                        <button className="btn btn-primary">MHM'22</button>
+                        <a className="btn btn-primary" href='https://mhm22.ieee-link.org/'>MHM'22</a>
                     </div>
                     <img src={image1} className="rounded-lg shadow-2xl" style={{ borderRadius: "1rem", width: "36rem" }} />
 
                 </div>
             </div >
-            <Glimpses/>
+            <div className="divider"></div>
+            <Glimpses />
+            <div className="divider"></div>
             {/* <div className="p-12 flex justify-evenly">
                 <i className='text-xl font-bold'>Logo 1</i>
                 <i className='text-xl font-bold'>Logo 2</i>
@@ -67,7 +69,7 @@ const About = () => {
                         <h1 className="text-5xl font-bold" style={{ fontFamily: "Aloevera" }}>IEEE LINK</h1>
 
                         <p className="py-6">  Local Integrated Network of Kerala IEEE Students or ‘LINK,’ was kickstarted by the IEEE Kerala Section in India and officially inaugurated by Mr. Cleon Anderson, former IEEE President, in 2005. At present, LINK has amassed over ten thousand student members in 108+ student branches. As one of the world’s largest student activities groups, LINK has established an extensive network between student branches, thereby enhancing the efficacy of IEEE membership. IEEE Region 10 adopted the LINK model as the R10 Global Integrated Network of IEEE Students (GINI).  </p>
-                        <button className="btn btn-primary">Learn More</button>
+                        <a className="btn btn-primary" href='https://ieee-link.org/'>Learn More</a>
                     </div>
                 </div>
             </div >

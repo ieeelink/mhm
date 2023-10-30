@@ -21,7 +21,7 @@ const Hero = () => {
                                 Govt. College of Engineering Kannur
                             </p>
                         </div>
-                        <button className="btn btn-primary">Reg. Starts Soon</button>
+                        <a className="btn btn-primary" href="/#get-ticket">Register Now</a>
                     </div>
                 </div>
             </div>
