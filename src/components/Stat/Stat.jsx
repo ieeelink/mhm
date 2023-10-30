@@ -9,7 +9,7 @@ const Stat = () => {
                     </div>
                     <div className="stat-title">Participant Count</div>
                     <div className="stat-value text-primary">180+</div>
-                    <div className="stat-desc"></div>
+                    <div className="stat-desc">Networking opportunity with 250+ participants and volunteers</div>
                 </div>
 
                 <div className="stat">
