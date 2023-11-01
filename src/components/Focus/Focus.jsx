@@ -1,8 +1,10 @@
 import focus from "../../assets/images/focus.jpg"
+import BackgroundMesh from "../BackgroundMesh/BackgroundMesh";
 
 const Focus = () => {
     return (
-        <div className="focus w-full">
+        <div className="focus w-full relative" >
+            
             <h1 className="text-5xl font-bold text-center" style={{
                 fontFamily: "Aloevera Outline"
             }}  >Focus</h1>

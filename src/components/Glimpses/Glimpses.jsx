@@ -4,6 +4,7 @@ import image3 from '../../assets/images/glimpses/3.jpeg';
 import image4 from '../../assets/images/glimpses/4.jpeg';
 import image5 from '../../assets/images/glimpses/5.jpeg';
 import image7 from '../../assets/images/glimpses/7.jpeg';
+import BackgroundMesh from '../BackgroundMesh/BackgroundMesh';
 const Glimpses = () => {
     return (
 
