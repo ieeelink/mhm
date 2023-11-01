@@ -18,8 +18,8 @@ const Footer = () => {
 
                 <nav>
                     <header className="footer-title">Contact Us</header>
-                    <a className="link link-hover">Phone : +91 91378 36584 </a>
-                    <a className="link link-hover">Phone : +91 79076 49864</a>
+                    <a className="link link-hover">Varun K : +91 91378 36584 </a>
+                    <a className="link link-hover">Vaishakh : +91 79076 49864</a>
                     <a className="link link-hover">Email: malabarhubieee@gmail.com</a>
                 </nav>
             </footer>

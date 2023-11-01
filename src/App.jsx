@@ -7,10 +7,12 @@ import Faq from './components/Faq/Faq'
 import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
 import About from './components/About/About'
+import SimpleAbout from './components/SimpleAbout/SimpleAbout'
 import Glimpses from './components/Glimpses/Glimpses'
 import BackgroundMesh from './components/BackgroundMesh/BackgroundMesh'
 import Stat from './components/Stat/Stat'
-import GetTicket from './GetTicket/GetTicket'
+import GetTicket from './components/GetTicket/GetTicket'
+import Focus from './components/Focus/Focus'
 
 function App() {
 
@@ -19,8 +21,9 @@ function App() {
       <Navbar />
       <Hero />
       <Stat />
-      <About />
+      <SimpleAbout />
       <GetTicket/>
+      <Focus/>
       <Faq />
       <Footer />
     </>
