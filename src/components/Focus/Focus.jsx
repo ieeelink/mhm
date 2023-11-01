@@ -10,12 +10,12 @@ const Focus = () => {
             }}  >Focus</h1>
             <h1 className=" px-2 text-3xl font-bold text-center" >Why should you join the event ?</h1>
 
-            <div className="flex flex-wrap container justify-center w-full h-auto items-center p-12 ">
+            <div className="flex flex-wrap justify-center w-full h-auto items-center p-12 ">
                 <img src={focus} className="border-2 shadow-xl rounded-lg lg:w-1/3 " alt="" />
             </div>
 
 
-            <div className="flex flex-wrap container justify-center w-full h-auto items-center">
+            <div className="flex flex-wrap justify-center w-full h-auto items-center">
 
                 <div className="card card-side bg-base-100 shadow-xl m-2 lg:m-12">
                     <figure className="pl-4 w-16 lg:p-12 lg:w-36 flex justify-center items-center lg:bg-primary lg:hover:bg-[#3FFEC1]">

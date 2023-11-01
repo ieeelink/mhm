@@ -5,7 +5,10 @@ const Hero = () => {
         <>
             <div className="hero min-h-screen bg-base-200 relative">
                 <BackgroundMesh />
-                <div className="hero-content text-center">
+                <div className="hero-content text-center margin-auto" style={{
+                    margin:'auto',
+                    
+                }}>
                     <div className="max-w-md">
                         <h1 className="text-5xl font-bold">Malabar Hub Meet</h1>
                         <h1 className="text-4xl font-bold py-2">2023</h1>
@@ -21,7 +24,13 @@ const Hero = () => {
                                 Govt. College of Engineering Kannur
                             </p>
                         </div>
-                        <a className="btn btn-primary" href="/#get-ticket">Register Now</a>
+                        <a className="btn btn-primary" href="/#get-ticket">
+                            <p className=''>
+                                Registration Starts 
+                                <br/>
+                                Soon
+                            </p>
+                        </a>
                     </div>
                 </div>
             </div>
