@@ -1,3 +1,5 @@
+import focus from "../../assets/images/focus.jpg"
+
 const Focus = () => {
     return (
         <div className="focus w-full">
@@ -5,6 +7,11 @@ const Focus = () => {
                 fontFamily: "Aloevera Outline"
             }}  >Focus</h1>
             <h1 className=" px-2 text-3xl font-bold text-center" >Why should you join the event ?</h1>
+
+            <div className="flex flex-wrap container justify-center w-full h-auto items-center p-12 ">
+                <img src={focus} className="border-2 shadow-xl rounded-lg lg:w-1/3 " alt="" />
+            </div>
+
 
             <div className="flex flex-wrap container justify-center w-full h-auto items-center">
 
