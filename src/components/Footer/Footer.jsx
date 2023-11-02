@@ -6,7 +6,7 @@ const Footer = () => {
                     <header className="footer-title">Useful Links</header>
                     <a href="https://ieee-link.org/" className="link link-hover">IEEE LINK</a>
                     <a href="#" className="link link-hover">IEEE SB GCEK</a>
-                    <a href="https://ieeekerala.org/" className="link link-hover">IEE KS</a>
+                    <a href="https://ieeekerala.org/" className="link link-hover">IEEE KS</a>
                 </nav>
 
                 <nav>

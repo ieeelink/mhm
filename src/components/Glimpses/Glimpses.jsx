@@ -19,19 +19,19 @@ const Glimpses = () => {
                         <img src={image1} className='w-full' />
                     </div>
                     <div className="carousel-item w-full">
-                        <img src={image2} alt="Pizza" className='w-full' />
+                        <img src={image2} className='w-full' />
                     </div>
                     <div className="carousel-item w-full">
-                        <img src={image3} alt="Pizza" className='w-full' />
+                        <img src={image3} className='w-full' />
                     </div>
                     <div className="carousel-item w-full">
-                        <img src={image4} alt="Pizza" className='w-full' />
+                        <img src={image4} className='w-full' />
                     </div>
                     <div className="carousel-item w-full">
-                        <img src={image5} alt="Pizza" className='w-full' />
+                        <img src={image5} className='w-full' />
                     </div>
                     <div className="carousel-item w-full">
-                        <img src={image7} alt="Pizza" className='w-full' />
+                        <img src={image7} className='w-full' />
                     </div>
 
                 </div>
