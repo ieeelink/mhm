@@ -26,9 +26,9 @@ const Hero = () => {
                         </div>
                         <a className="btn btn-primary" href="/#get-ticket">
                             <p className=''>
-                                Get Early Bird
+                                Early Bird
                                 <br/>
-                                Tickets
+                                Sold Out!
                             </p>
                         </a>
                     </div>
