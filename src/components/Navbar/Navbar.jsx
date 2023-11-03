@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <a className="btn btn-diabled" href='/#get-ticket'>
                     <p className='text-xs'>
-                        Coming Soon!
+                        Get Tickets!
                     </p>
                 </a>
             </div>
