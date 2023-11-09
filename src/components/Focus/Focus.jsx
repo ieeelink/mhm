@@ -80,9 +80,9 @@ const Focus = () => {
                     </div>
                 </div>
             </div>
-            <h1 className=" px-2 text-3xl font-semibold text-center pt-5"  style={{color:'#11735b',fontSize:'33px'}}>Our Speakers</h1>
+            <h1 className=" px-2 text-3xl font-semibold text-center pt-5"  style={{color:'#11735b',fontSize:'33px' , paddingTop:'3rem'}}>Our Speakers</h1>
             
-         <div className="flex lg:ml-5 pt-4 pb-4" style={{ overflowX: 'scroll', whiteSpace: 'nowrap', paddingTop:'3rem','-webkit-overflow-scrolling': 'touch', position: 'relative'}}>
+         <div className="flex lg:ml-5 pt-5 pb-4" style={{ overflowX: 'scroll', whiteSpace: 'nowrap', paddingTop:'3rem','-webkit-overflow-scrolling': 'touch', position: 'relative'}}>
          <style>
     {`
       ::-webkit-scrollbar {
@@ -90,7 +90,7 @@ const Focus = () => {
       }
     `}
   </style>
-         <div className="card w-120 bg-base-100 shadow-xl  m-3 lg:m-12" style={{ float:'left' }}>
+         <div className="card w-120 bg-base-100 shadow-xl pt-2 m-3 lg:m-12 sm:mx-auto lg:ml-5" style={{ float:'left' }}>
             <div className=" card card-side ml-5"> <figure className="w-32  rounded-full ring ring-[#5F9F7C] ring-offset-base-100 ring-offset-2" ><img src="/sp223.jpg" alt="Shoes" /></figure>
             <svg xmlns="http://www.w3.org/2000/svg" style={{marginLeft:'1rem'}} height="1rem" viewBox="0 0 448 512"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
             <h1 className="my-auto pt-3  text-primary" style={{fontWeight:'400', fontSize:'18px',paddingRight:'1rem'}}>Blender<br/>3D - Modeling,<br/>Animation,Texturing</h1>
@@ -117,7 +117,7 @@ const Focus = () => {
        </div>
       
      </div></div>
-     <div className="card w-96  bg-base-100 shadow-xl  m-3 lg:m-12" style={{ float:'left' }}>
+     <div className="card w-96  bg-base-100 shadow-xl mb-3  m-3 lg:m-12" style={{ float:'left' }}>
             <div className=" card card-side ml-5"> <figure className="w-32  rounded-full ring ring-[#5F9F7C] ring-offset-base-100 ring-offset-2" ><img src="/sp3322.JPG" alt="Shoes" /></figure>
             <svg xmlns="http://www.w3.org/2000/svg" style={{marginLeft:'1rem',marginTop:'1rem'}} height="1rem" viewBox="0 0 448 512"><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z"/></svg>
             <h1 className="pl-5 my-auto text-primary" style={{fontWeight:'400', fontSize:'20px', paddingLeft:'2rem'}}><h className='text-black' style={{fontWeight:'400',fontSize:'18px'}}></h>UI/UX<br/>Design<br/></h1>
