@@ -1,33 +1,31 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react';
+
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
-import Faq from './components/Faq/Faq'
-import Footer from './components/Footer/Footer'
-import Hero from './components/Hero/Hero'
-import About from './components/About/About'
-import SimpleAbout from './components/SimpleAbout/SimpleAbout'
-import Glimpses from './components/Glimpses/Glimpses'
-import BackgroundMesh from './components/BackgroundMesh/BackgroundMesh'
-import Stat from './components/Stat/Stat'
-import GetTicket from './components/GetTicket/GetTicket'
-import Focus from './components/Focus/Focus'
+
+
+import Pages from './Pgaes.jsx';
+import Posters from './components/Posters/Posters.jsx';
+
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Stat />
-      <SimpleAbout />
-      <GetTicket/>
-      <Focus/>
-      <Faq />
-      <Footer />
+    <Router>
+     
+      <Routes>
+      <Route path="/" element={<Pages />} exact />
+          <Route path="/poster" element={<Posters />} exact />
+          
+        </Routes>
+      </Router>
+      
     </>
   )
 }
 
-export default App
+export default App;
