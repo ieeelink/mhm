@@ -1,4 +1,4 @@
-import ticket from '../../assets/images/ticket.svg';
+import ticket from '../../assets/images/soldout.svg';
 const GetTicket = () => {
     return (
         <div id="get-ticket" className="w-full flex p-12">

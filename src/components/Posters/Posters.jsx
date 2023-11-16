@@ -1,6 +1,8 @@
 
 import Footer from '../Footer/Footer';
+import Navbar from '../Navbar/Navbar';
 import React, { useEffect } from 'react';
+
 import { useLocation } from 'react-router-dom';
 
 
@@ -24,7 +26,9 @@ const Posters = () => {
           transform: 'scale(1.05)',
         };   
   return (
+  
     <div className='Posters w-full relative'>
+        <Navbar />
       <h1 className="text-5xl font-bold text-center mt-5 pt-4" style={{
                 fontFamily: "Aloevera Outline"
             }}  >Event Posters</h1>

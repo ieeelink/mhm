@@ -11,6 +11,7 @@ import './App.css'
 
 import Pages from './Pgaes.jsx';
 import Posters from './components/Posters/Posters.jsx';
+import Contact from './components/Contact/Contact.jsx';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Pages />} exact />
           <Route path="/poster" element={<Posters />} exact />
+          <Route path="/contact" element={<Contact />} exact />
           
         </Routes>
       </Router>
