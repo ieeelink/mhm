@@ -8,6 +8,7 @@ import { useLocation } from 'react-router-dom';
 
 const Focus = () => {
     const navigate = useNavigate();
+    
     const location = useLocation();
 
   useEffect(() => {
@@ -213,9 +214,7 @@ const Focus = () => {
       
      </div></div>
      </div>
-     <h1 className="lg:text-4.8xl text-4xl font-bold text-center pt-5 pb-2" style={{
-                 color:'#11735b',paddingTop:'2.5rem'
-            }}  >Event Posters</h1>
+     <h1 className=" px-2 text-3xl font-semibold text-center pt-5"  style={{color:'#11735b',fontSize:'33px', paddingTop:'3rem'}}>Event Posters</h1>
               <div className="card w-80 rounded h-auto m-auto py-10 lg:w-1/3 flex justify-center w-full h-auto items-center  ">
                 
                 
@@ -227,8 +226,14 @@ const Focus = () => {
     
        
             </div>
-
-  
+            <Link to="/contact"><div className="flex flex-col mx-auto justify-center items-center">
+            <button className="btn btn-wide w-5/6 lg:w-3/4 mr-4 my-4 justify-center items-center border-black"  style={{
+      background: 'linear-gradient(90deg, #11735b, #010a0a)',
+      fontSize: '22px',
+      color: '#fff',
+      border: 'none',
+    }} >Reach  Us</button>
+            </div></Link>
         </div>
         
     )

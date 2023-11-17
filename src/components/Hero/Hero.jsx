@@ -26,6 +26,9 @@ const Hero = () => {
                         </div>
                         <a className="btn btn-primary" href="/#get-ticket">
                             <p className=''>
+
+                               
+
                                 Registration Closed
                             </p>
                         </a>
