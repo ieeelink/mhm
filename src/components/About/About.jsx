@@ -2,9 +2,13 @@ import image1 from '../../assets/images/mhm.webp'
 import gcek from '../../assets/images/gcek.jpg'
 import './About.css'
 import Glimpses from '../Glimpses/Glimpses'
+import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
+import Faq from '../Faq/Faq'
 const About = () => {
     return (
         <>
+            <Navbar />
             <div className="hero  py-12" id='about'>
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div>
@@ -135,6 +139,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Faq />
+            <Footer />
         </>
     )
 }
