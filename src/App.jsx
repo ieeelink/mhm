@@ -4,7 +4,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import './App.css'
 
@@ -22,10 +22,10 @@ function App() {
       <Router>
 
         <Routes>
-          <Route path="/about" element={<About />} exact />
-          <Route path="/poster" element={<Posters />} exact />
-          <Route path="/contact" element={<Contact />} exact />
-          <Route path="/" element={<Pages />} exact />
+          <Route path="/about" element={<About />}  />
+          <Route path="/poster" element={<Posters />}  />
+          <Route path="/contact" element={<Contact />}  />
+          <Route path="/" element={<Pages />} />
 
         </Routes>
       </Router>

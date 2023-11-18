@@ -13,6 +13,7 @@ import SimpleAbout from './components/SimpleAbout/SimpleAbout'
 import Stat from './components/Stat/Stat'
 import GetTicket from './components/GetTicket/GetTicket'
 import Focus from './components/Focus/Focus'
+import Schedule from './components/Schedule/Schedule';
 
 
 function Pages() {
@@ -24,6 +25,7 @@ function Pages() {
       <Hero />
       <Stat />
       <SimpleAbout />
+      <Schedule/>
       <GetTicket/>
       <Focus/>
       <Faq />

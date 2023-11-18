@@ -1,4 +1,6 @@
 import logo from '../../assets/logos/mhm.png';
+import { Link, } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 const Navbar = () => {
     return (
         <div className="navbar">
@@ -9,10 +11,12 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href='/'>Home</a></li>
-                        <li><a href='/#about'>About</a></li>
-                        <li><a href='/#glimpses'>Glimpses</a></li>
-                        <li><a href='/#faq'>FAQ</a></li>
-                        <li><a href='/#footer'>Contact</a></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li>
+                            <HashLink to="/#glimpses">Glimpses</HashLink>
+                        </li>
+                        <li><HashLink to="/#faq">FAQ</HashLink></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl"><img src={logo} className='w-28' /></a>
@@ -20,18 +24,20 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><a href='/'>Home</a></li>
-                    <li><a href='/about'>About</a></li>
-                    <li><a href='/#glimpses'>Glimpses</a></li>
-                    <li><a href='/#faq'>FAQ</a></li>
-                    <li><a href='/contact'>Contact</a></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li>
+                        <HashLink to="/#glimpses">Glimpses</HashLink>
+                    </li>
+                    <li><HashLink to="/#faq">FAQ</HashLink></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-diabled" href='/#get-ticket'>
+                {/* <a className="btn btn-diabled" href='/#get-ticket'>
                     <p className='text-xs'>
                         Sold Out!
                     </p>
-                </a>
+                </a> */}
             </div>
         </div>
     )
