@@ -5,7 +5,7 @@ const Footer = () => {
                 <nav>
                     <header className="footer-title">Useful Links</header>
                     <a href="https://ieee-link.org/" className="link link-hover">IEEE LINK</a>
-                    <a href="#" className="link link-hover">IEEE SB GCEK</a>
+                    <a href="#" className="link link-hover">IEEE SB GEC Wayanad</a>
                     <a href="https://ieeekerala.org/" className="link link-hover">IEEE KS</a>
                 </nav>
 
@@ -18,14 +18,14 @@ const Footer = () => {
 
                 <nav>
                     <header className="footer-title">Contact Us</header>
-                    <a className="link link-hover">Varun K : +91 91378 36584 </a>
+                    <a className="link link-hover">Devang C V : +91 91378 36584 </a>
                     <a className="link link-hover">Vaishakh : +91 79076 49864</a>
                     <a className="link link-hover">Email: malabarhubieee@gmail.com</a>
                 </nav>
             </footer>
             <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
                 <aside className="items-center grid-flow-col">
-                    <p> Copyright © 2023 IEEE LINK.   <br />All Rights Reserved</p>
+                    <p> Copyright © 2024 IEEE LINK.   <br />All Rights Reserved</p>
                 </aside>
                 <nav className="md:place-self-center md:justify-self-end">
                     <div className="grid grid-flow-col gap-4">

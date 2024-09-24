@@ -25,8 +25,8 @@ function Pages() {
       <Hero />
       <Stat />
       <SimpleAbout />
-      <Schedule/>
-      <GetTicket/>
+      {/* <Schedule/> */}
+      {/* <GetTicket/> */}
       <Focus/>
       <Faq />
       <Footer />

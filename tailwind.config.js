@@ -10,7 +10,7 @@ export default {
     themes: [
       {
         mytheme: {
-          "primary": "#01d0a0",
+          "primary": "#0B4485",
           "secondary": "#f2f2f2",
           "accent": "#11735b",
           "neutral": "#fff",

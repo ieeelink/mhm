@@ -24,13 +24,13 @@ const Faq = () => {
                 <input type="radio" name="my-accordion-3" />
                 <div className="collapse-title text-xl font-medium">
 
-                    2. Where is MHM’23 held ?
+                    2. Where is MHM’24 held ?
 
                 </div>
                 <div className="collapse-content">
                     <p>
 
-                        MHM'23 will take place from the 18th and 19th of November at GCE Kannur.
+                        MHM'24 will take place from the 05th and 06th of October at GEC Wayanad.
                     </p>
                 </div>
             </div>
