@@ -1,5 +1,6 @@
 import BackgroundMesh from "../BackgroundMesh/BackgroundMesh"
 import { HashLink } from 'react-router-hash-link';
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
     const viewSchedule = () => {
@@ -10,8 +11,8 @@ const Hero = () => {
             <div className="hero min-h-screen bg-base-200 relative">
                 <BackgroundMesh />
                 <div className="hero-content text-center margin-auto" style={{
-                    margin:'auto',
-                    
+                    margin: 'auto',
+
                 }}>
                     <div className="max-w-md">
                         <h1 className="text-5xl font-bold text-[#112c4b]">Malabar Hub Meet</h1>
@@ -28,12 +29,12 @@ const Hero = () => {
                                 Govt. Engineering College Wayanad
                             </p>
                         </div>
-                       {/* <HashLink to="/#faq" className="btn btn-primary">
+                        <NavLink to="https://forms.gle/U4RemSWddQs94k3Y9" className="btn btn-primary">
 
                             <p className=''>
-                                View Schedule
+                                Register Now
                             </p>
-                       </HashLink> */}
+                        </NavLink>
                     </div>
                 </div>
             </div>
