@@ -16,7 +16,7 @@ const Faq = () => {
                 <div className="collapse-content">
                     <p>
 
-                        Malabar Hub Meet(MHM) is an annual gathering of all the members of the IEEE Malabar hub. The two-day event allows you to network with peers, learn new skills, expand your technical knowledge, hear from expert speakers, and most importantly, have fun.
+                        Malabar Hub Meet(MHM) is an annual gathering of all the members of the IEEE Malabar hub. The three-day event allows you to network with peers, learn new skills, expand your technical knowledge, hear from expert speakers, and most importantly, have fun.
                     </p>
                 </div>
             </div>
@@ -30,7 +30,7 @@ const Faq = () => {
                 <div className="collapse-content">
                     <p>
 
-                        MHM'24 will take place from the 05th and 06th of October at GEC Wayanad.
+                        MHM'24 will take place from the 04th, 05th and 06th of October at GEC Wayanad.
                     </p>
                 </div>
             </div>

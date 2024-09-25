@@ -19,7 +19,7 @@ const Hero = () => {
                         <div className="py-4">
                             <i className="fa-solid fa-calendar-days text-[#112c4b]"></i>
                             <p className="px-2 text-[#112c4b]">
-                                October 05<sup>th</sup> & 06 <sup>th</sup>
+                                October 04<sup>th</sup>, 05<sup>th</sup> & 06 <sup>th</sup>
                             </p>
                             <br />
 

@@ -9,30 +9,30 @@ import { useLocation } from 'react-router-dom';
 
 const Focus = () => {
     const navigate = useNavigate();
-    
+
     const location = useLocation();
 
-  useEffect(() => {
-    // Scroll to the top when the component mounts or the route changes
-    window.scrollTo(0, 0);
-  },[location.pathname]);
+    useEffect(() => {
+        // Scroll to the top when the component mounts or the route changes
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
 
     const styles = {
         overflow: 'hidden',
-        
-      };
+
+    };
 
     const cardCompactStyle = {
-          transition: 'transform 0.3s ease-in-out',
-        };
-      
-        const cardCompactHoverStyle = {
-          transform: 'scale(1.05)',
-        };   
+        transition: 'transform 0.3s ease-in-out',
+    };
+
+    const cardCompactHoverStyle = {
+        transform: 'scale(1.05)',
+    };
 
     return (
         <div className="focus w-full relative mt-20" >
-            
+
             <h1 className="text-5xl font-bold text-center" style={{
                 fontFamily: "Aloevera Outline"
             }}  >Focus</h1>
@@ -96,18 +96,21 @@ const Focus = () => {
 
                 <div className="card card-side bg-base-100 shadow-xl m-2 lg:m-12">
                     <figure className="pl-4 w-16 lg:p-12 lg:w-36 flex justify-center items-center lg:bg-primary lg:hover:bg-[#69afff]">
-                        <svg className="lg:fill-[#f2f2f2]" xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512"><path d="M346.3 271.8l-60.1-21.9L214 448H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H544c17.7 0 32-14.3 32-32s-14.3-32-32-32H282.1l64.1-176.2zm121.1-.2l-3.3 9.1 67.7 24.6c18.1 6.6 38-4.2 39.6-23.4c6.5-78.5-23.9-155.5-80.8-208.5c2 8 3.2 16.3 3.4 24.8l.2 6c1.8 57-7.3 113.8-26.8 167.4zM462 99.1c-1.1-34.4-22.5-64.8-54.4-77.4c-.9-.4-1.9-.7-2.8-1.1c-33-11.7-69.8-2.4-93.1 23.8l-4 4.5C272.4 88.3 245 134.2 226.8 184l-3.3 9.1L434 269.7l3.3-9.1c18.1-49.8 26.6-102.5 24.9-155.5l-.2-6zM107.2 112.9c-11.1 15.7-2.8 36.8 15.3 43.4l71 25.8 3.3-9.1c19.5-53.6 49.1-103 87.1-145.5l4-4.5c6.2-6.9 13.1-13 20.5-18.2c-79.6 2.5-154.7 42.2-201.2 108z" /></svg>
+                        <svg className="lg:fill-[#f2f2f2] bi bi-person-walking" xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 16 16">
+                            <path d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M6.44 3.752A.75.75 0 0 1 7 3.5h1.445c.742 0 1.32.643 1.243 1.38l-.43 4.083a1.8 1.8 0 0 1-.088.395l-.318.906.213.242a.8.8 0 0 1 .114.175l2 4.25a.75.75 0 1 1-1.357.638l-1.956-4.154-1.68-1.921A.75.75 0 0 1 6 8.96l.138-2.613-.435.489-.464 2.786a.75.75 0 1 1-1.48-.246l.5-3a.75.75 0 0 1 .18-.375l2-2.25Z" />
+                            <path d="M6.25 11.745v-1.418l1.204 1.375.261.524a.8.8 0 0 1-.12.231l-2.5 3.25a.75.75 0 1 1-1.19-.914zm4.22-4.215-.494-.494.205-1.843.006-.067 1.124 1.124h1.44a.75.75 0 0 1 0 1.5H11a.75.75 0 0 1-.531-.22Z" />
+                        </svg>
                     </figure>
                     <div className="card-body w-64 lg:w-96">
-                        <h2 className="card-title">Beach Visit</h2>
-                        <p>An immersive beach visit, offering a serene escape and joyful camaraderie amidst the sun, sand, and sea.</p>
+                        <h2 className="card-title">Trekking</h2>
+                        <p>A thrilling trek through scenic trails, rugged terrains, and breathtaking natural beauty</p>
                     </div>
                 </div>
             </div>
 
-    {/* <Speaker /> */}
-            
-     {/* <h1 className=" px-2 text-3xl font-semibold text-center pt-5"  style={{color:'#11735b',fontSize:'33px', paddingTop:'3rem'}}>Event Posters</h1>
+            {/* <Speaker /> */}
+
+            {/* <h1 className=" px-2 text-3xl font-semibold text-center pt-5"  style={{color:'#11735b',fontSize:'33px', paddingTop:'3rem'}}>Event Posters</h1>
               <div className="card rounded m-auto py-10 lg:w-1/3 flex justify-center w-full h-auto items-center  ">
                 
                 
@@ -134,7 +137,7 @@ const Focus = () => {
               </div>
             </Link> */}
         </div>
-        
+
     )
 }
 
